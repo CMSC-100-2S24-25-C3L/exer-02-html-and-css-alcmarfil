@@ -1,1 +1,107 @@
-/* hello */
+* {
+  font-family: 'Lato', sans-serif;
+
+}
+
+.logo-img {
+  width: 120px;
+  height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 10px;
+  font-size: 20px;
+  background-color: #86A788;
+}
+
+.photo-img{
+  display: inline-flex;
+}
+
+.featuredphoto{
+  justify-content: center;
+}
+
+.skills {
+  text-align: center; 
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+.flex-container {
+  background-color: #FFFDEC;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  background-color: white;
+}
+
+h3 {
+  text-align: center;
+  background-color: #FFE2E2;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+
+h4{
+  background-color: #D3F1DF;
+  width: 200px;
+  border-radius: 20px;
+  padding: 7px 7px;
+}
+
+.html, .css {
+  width: 70%;
+  background-color: #D3F1DF;
+  color: #525B44;
+}
+
+.c {
+  width: 90%;
+  background-color: #D3F1DF;
+  color: #525B44;
+}
+
+
+.python, .figma {
+  width: 50%;
+  background-color: #D3F1DF;
+  color: #525B44;
+}
+
+.skillstitle {
+  font-weight: bold;
+  color: #5A6C57;
+}
+
+footer {
+  background-color: #86A788;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+}
+
+a {
+  background-color: #FFE2E2;
+  width: 60px;
+}
+
+.autobiog {
+  background-color: #FFFDEC;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 20px;
+  font-weight: bold;
+  transition: color 0.4s ease, text-decoration 0.4s ease;
+  color: black;
+}
